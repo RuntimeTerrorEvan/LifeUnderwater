@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+
+<html>
+
+<link rel = "stylesheet">
+	  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+
+  *, :before, :after { box-sizing: border-box; }
+
+	table{
+		border-spacing:15px;
+	}
+
+	h1{
+
+	font-family: 'Staatliches', cursive;
+	font-size: 60px;
+
+	}
+
+	h2{
+
+	font-family: 'Staatliches', cursive;
+
+	}
+
+	h3{
+
+font-family: 'Staatliches', cursive;
+font-size:45px;
+color:white;
+
+	}
+
+	h4{
+font-family: 'Staatliches', cursive;
+font-size:20px;
+color:white;
+s
+	}
+
+	h5{
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+	}
+
+
+	body {
+
+	background: #0b2ba1;
+;
+	color: #333;
+	font: 100% Lato, Arial, Sans Serif;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+
+}
+
+  .row {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80em;
+  padding: 1em;
+}
+
+ section{text-align:center;}
+
+
+
+/* KEYFRAMES */
+
+@-webkit-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-moz-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-webkit-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@-moz-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+/* ANIMATIONS */
+
+.x1 {
+    -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: -5%;
+	top: 5%;
+	
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+}
+
+.x2 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	
+	left: 5%;
+	top: 80%;
+	
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);
+}
+
+.x3 {
+    -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 10%;
+	top: 40%;
+	
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	transform: scale(0.7);
+}
+
+.x4 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	
+	left: 20%;
+	top: 0;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+.x5 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	
+	left: 30%;
+	top: 50%;
+	
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	transform: scale(0.5);
+}
+
+.x6 {
+    -webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 50%;
+	top: 0;
+	
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.x7 {
+    -webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 65%;
+	top: 70%;
+	
+	-webkit-transform: scale(0.4);
+	-moz-transform: scale(0.4);
+	transform: scale(0.4);
+}
+
+.x8 {
+    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+	
+	left: 80%;
+	top: 10%;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+.x9 {
+    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+	
+	left: 90%;
+	top: 50%;
+	
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	transform: scale(0.6);
+}
+
+.x10 {
+    -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	-moz-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+	
+	left: 80%;
+	top: 80%;
+	
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
+}
+
+/* OBJECTS */
+
+.bubble {
+    -webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	
+    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+	
+    height: 200px;
+	position: absolute;
+	width: 200px;
+}
+
+.bubble:after {
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 70%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.5)), color-stop(70%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	
+    -webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+	-moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+	box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+	
+	content: "";
+    height: 180px;
+
+	left: 10px;
+	position: absolute;
+	width: 180px;
+}
+
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.container:hover .overlay {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-gap: 15px 20px;
+}
+
+.item1{
+
+	grid-column-start:1;
+	grid-column-end:3;
+
+}
+
+
+ /* Features specifically for the TOP NAVIGATION BAR */
+        .topnav {
+        overflow: hidden;
+        background-color: #0a0f35;
+
+        }
+
+        /* Features specifically for the TOP NAVIGATION BAR */
+        .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        font-family: 'Staatliches', cursive;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        }
+
+        .dropdown{
+        	float:left;
+        	overflow:hidden;
+        }
+
+        /* Dropdown button */
+	.dropdown .dropbtn {
+  	font-size: 16px;
+ 	 border: none;
+ 	 outline: none;
+ 	 color: white;
+	 padding: 14px 16px;
+	 background-color: inherit;
+     font-family: inherit; /* Important for vertical align on mobile phones */
+     margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align:left;
+}
+
+.dropdown-content a:hover {
+  background-color:#ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+}
+
+.topnav-right {
+  float:right;
+}
+
+/* Features specifically for the TOP NAVIGATION BAR */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+/* Features specifically for the TOP NAVIGATION BAR */
+.topnav a.active {
+background-color: #4CAF50;
+color: white;
+}
+
+.image1{
+width:40%;
+height:auto;
+}
+
+.whale{
+	height:400px;
+	width:709px;
+}
+
+
+
+.DonateButton{
+font-family: 'Staatliches', cursive;
+font-size:45px;
+color:white;
+width:10px
+height:5px;
+
+}
+
+.ContactButton{
+font-family: 'Staatliches', cursive;
+font-size:45px;
+color:white;
+width:100px
+height:5px;
+
+}
+
+   /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  width: 710px;
+  height: 400px;
+  perspective: 1000px;
+  padding-left:10px;
+  padding-top:15px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+  background-color: white;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  width:1000;
+  height:300;
+}
+
+
+a.button6{
+padding-top:0px;
+ padding:0.7em 1.4em;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.15em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ text-transform:uppercase;
+ font-weight:400;
+ color:#FFFFFF;
+ background-color:#3369ff;
+ box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+ text-align:center;
+ position:relative;
+
+}
+a.button6:active{
+ top:0.1em;
+}
+@media all and (max-width:30em){
+ a.button6{
+  display:block;
+  margin:0.4em auto;
+ }
+}
+
+{box-sizing: border-box;}
+
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #0a0f35;
+  color: white;
+  font-family:staatliches, cursive;
+  font-size:20px;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  font-family: 'Staatliches', cursive;
+  font-size:30px;
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding-left:10px;
+  padding-top:3px;
+    background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 95%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  font-family: 'Staatliches', cursive;
+  font-size:15px;
+  background-color: #2ECD96;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 97%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: #EE3069;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/* */
+svg.radial-progress {
+  height: auto;
+  max-width: 100px;
+  transform: rotate(-90deg);
+  width: 100%;
+}
+
+/* Defines the circle for statistics  */
+svg.radial-progress circle {
+  fill: rgba(0,0,0,0);
+  stroke: #fff;
+  stroke-dashoffset: 219.91148575129; /* Circumference */
+  stroke-width: 10;
+}
+svg.radial-progress circle.incomplete { opacity: 0.25; }
+
+svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; /* Circumference */ }
+
+svg.radial-progress text {
+  fill: #fff;
+  font: 400 1em/1 'Oswald', sans-serif;
+  text-anchor: middle;
+}
+
+/*** Color Options for Circular Statistics  ***/
+/* Primary */
+
+svg.radial-progress:nth-of-type(6n+1) circle { stroke:#83e4e2 ; }
+
+/* Secondary */
+
+svg.radial-progress:nth-of-type(6n+2) circle { stroke:#a2ed56 ; }
+
+/* Tertiary */
+
+svg.radial-progress:nth-of-type(6n+3) circle { stroke: #fd6470; }
+
+/* Quaternary */
+
+svg.radial-progress:nth-of-type(6n+4) circle { stroke: #fca858; }
+
+/* Quinary */
+
+svg.radial-progress:nth-of-type(6n+5) circle { stroke: #fddc32; }
+
+</style>
+
+
+<body>
+
+<!--Top Navigation--> 
+
+<div class="topnav">
+<div class="dropdown">
+    <button type ="button" style = "background-color:transparent;"> 
+    	<img src = "menu.png" style = " width:40px; height:40px; padding-top:5px">
+    </button>
+  <div class="dropdown-content">
+    <a class="active" href = "Animation.html">Life Underwater</a>
+    <a class="active" href = "Energy.html">Clean Energy</a>  
+    <a class="active" href="Comparison.html">How Are They Related?</a>
+  </div>
+</div>
+
+
+
+<!--Optional Background Music. Ran into some bugs. 
+
+<div>
+  <embed
+  src="/Users/evan.rosenberg/Desktop/Evan/Coding/Web Design/Mixtape.mp3"
+  width="180"
+  height="40"
+  loop="false"
+  autostart="false">
+</div>--> 
+
+<div class = "topnav-right">
+
+  <a href="https://give.undp.org/campaign/undp-giving/c120717?utm_source=newweb&utm_medium=WEB&utm_campaign=CENTRAL&c_src=CENTRAL&c_src2=WEB" target="_blank" class="button6" style="background-color:#668fff">Donate</a>
+  <a href = "https://www.un.org/en/contact-us-0" target="_blank" class="button6" style="background-color:#668fff">Ask an Expert</a>
+</div>     
+
+
+</div>
+
+<center style = "font-family:Staatliches; size:60px; color:white;">
+  <h1>
+	Life Underwater
+  </h1>
+</center>
+
+
+<img src = "JellyFish.jpeg" alt = "Landing Page" width = 100% height = auto>
+
+<h3>
+  <center>
+
+	The Victims and How They're Affected
+
+</center>
+
+</h3>
+
+<table style = "width:100%;">
+	<tr>
+		<th><div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+    	<div class = "image1">
+     <img src = "Dolphins.jpg" alt = "Hector's Dolphins">
+ </div>
+    </div>
+    <div class="flip-box-back">
+
+<center>
+  <h2>Hector's Dolphin</h2>
+</center>
+
+<h5>With a population of merely 7000, they are the smallest and rarest species of marine dolphins in the world.</h5>
+<h2 style = "background-color:red;">
+Threats</h2>
+<h5> Bycatch -- Since they live close to the shore, Hector's Dolphins often get accidentally caught during commercial fishing through gill and trawl nets. Gillnets are particularly dangerous, because they are made up of a fine mesh that is undectable underwater.  
+Other Threats -- Being struck by boats, pollution and seabed mining. 
+<h2 style = "background-color:#a2ed56;"> Solutions</h2>
+<h5> New Zealand, their country of origin, agreed to ban gilnets in a part of the Maui Dolphin's (a subspecies of Hector's Dolphin) habitat. </h5> 
+<a href = "https://www.fisheries.noaa.gov/species/hectors-dolphin" target= "_blank" class = "center" style = "font-family:Staatliches; size:25px;">Learn More!</a>
+
+    </div>
+  </div>
+</div>
+
+    <th>
+	<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src = "narwhal.jpg" alt = "Narwhal">
+    </div>
+    <div class="flip-box-back">
+      <h2>Narwhals</h2>
+      <h5>They are often reffered to as the "Unicorn of the Sea" because of their tusk. They can weight up to 4500 pounds and can grow as long as 17 feet. </h5>
+<h2 style = "background-color:red;">Threats</h2>
+<h5> Oil and Gas Development -- More development results in more shipping vessels. Such vessels create more opporotunities for collisions, as well as produce underwater noise that can interfere with the Narwhals' inter-species communication. 
+Other Threats -- Climate Change. </h5>
+<h2 style = "background-color:#a2ed56;"> Solutions (Click Below)</h2>
+
+<div>
+<a href = "https://sites.google.com/site/narwhaljm2013/species-recovery" target = "_blank">
+<img src = "narwhals.png" style = "width:80px; height:auto;">
+</div>
+
+    </div>
+    </div>
+    </div>
+
+</th>
+</th>
+</tr>
+
+    </div>
+  </div>
+</div>
+
+	<tr>
+		<th><div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src = "WhaleShark.png" alt = "Whale Shark">
+    </div> 
+    <div class="flip-box-back">
+
+<h2>Whale Sharks</h2>
+<h5>Whale sharks are the largest species of shark on Earth, and the largest fish alive today!</h5>
+<h2 style = "background-color:red;">Threats</h2>
+<h5> Whale sharks are highly valued on international markets. They are also victims of bycatch and whale shark tourism.</h5>
+
+<!-- Circular Statistics Animation. Data percentage and radial progress class work to fill in the corresponding section of the circle based on the data percentage. Matrix defines the circular shape --> 
+
+  <section class="row"> <svg class="radial-progress" data-percentage="63" viewBox="0 0 80 80">
+    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+    <text style = "font-family:Staatliches;"class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">63%</text>
+</main>
+
+<h5 style = "size:5px;"> of the Indo-Pacific Whale Shark Population has been reduced in the last 75 years. <a href = https://blog.padi.com/2018/09/04/6-tips-whale-shark-conservation/ target = "_blank">Learn How You Can Help!</a>
+ </h5> 
+
+
+  </div>
+    </div>
+  </div>
+</div></th>
+		<th><div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src = "Turtle.png" alt = "Hawksbill Turtle">
+    </div>
+    <div class="flip-box-back">
+
+
+<h2>Hawksbill Turtle s</h2>
+<h5>They are named for their narrow, pointed beak, similar to that of a hawk.</h5>
+<h2 style = "background-color:red;">Threats</h2>
+<h5> 
+They are most threatened by wildlife trade, though other dangers include loss of nesting and feeding habitats, excessive egg collection, fishery-related mortaliy, pollution and coastal development. </h5>
+<h2 style = "background-color:#a2ed56;"> Solutions</h2>
+<h5> Click on the image below to learn about the Hawaii Wildflife Fund that's working on Hawksbill Turtle recovery. 
+</h5>
+<div>
+<a href = "https://www.wildhawaii.org/our-work/conservation/hawksbill-sea-turtle-recovery/" target = "_blank">
+<img src = "turtles.png" style = "width:80px; height:auto;">
+</div>
+
+    </div>
+  </div>
+</div>
+</th>
+</th>
+</tr>
+</table>
+
+<h3>
+	<center>
+		What the numbers tell us
+	</center>
+</h3>
+
+<center>
+
+ <iframe src="https://ourworldindata.org/grapher/fish-species-threatened" loading="lazy" style="width: 85%; height: 600px; border: 0px none;"></iframe>
+
+<iframe src="https://ourworldindata.org/grapher/number-species-threatened" loading="lazy" style="width: 85%; height: 600px; border: 0px none;"></iframe>  
+
+
+<iframe src="https://ourworldindata.org/grapher/ocean-research-funding" loading="lazy" style="width: 85%; height: 600px; border: 0px none;"></iframe>
+
+<iframe src="https://ourworldindata.org/grapher/regulation-illegal-fishing" loading="lazy" style="width: 85%; height: 600px; border: 0px none;"></iframe>
+
+</center>
+
+
+<h3>
+	<center>
+	A hidden crisis... 
+	</center>
+</h3>
+
+
+<center><iframe style = "width:85%; height:600px;"
+src="https://www.youtube.com/embed/1Q5CXN7soQg">
+
+
+</iframe></center>
+
+<!-- Individual bubbles for the animation--> 
+
+	<div id="background-wrap">
+    <div class="bubble x1"></div>
+    <div class="bubble x2"></div>
+    <div class="bubble x3"></div>
+    <div class="bubble x4"></div>
+    <div class="bubble x5"></div>
+    <div class="bubble x6"></div>
+    <div class="bubble x7"></div>
+    <div class="bubble x8"></div>
+    <div class="bubble x9"></div>
+    <div class="bubble x10"></div>
+
+</div>
+
+
+
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea id = "txt" placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn" onclick="sendMessage()">Submit</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<main>
+<article class="row">
+    <div class="jquery-script-ads" style="margin:30px auto" align="center"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery integration */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+
+</script>
+
+<script>
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+// Opens up email after message is submitted 
+
+function sendMessage(){
+
+  window.open('mailto:evan.rosenberg@ucc.on.ca?subject=User Feedback&body=Please Copy and Paste Your Message');
+
+}
+
+</script>
+
+
+<!--JavaScript to make the circular progress bars function--> 
+
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script> 
+<script>
+$(function(){
+
+    // Remove svg.radial-progress .complete inline styling
+    $('svg.radial-progress').each(function( index, value ) { 
+        $(this).find($('circle.complete')).removeAttr( 'style' );
+    });
+
+    // Activate progress animation on scroll
+    $(window).scroll(function(){
+        $('svg.radial-progress').each(function( index, value ) { 
+            // If svg.radial-progress is approximately 25% vertically into the window when scrolling from the top or the bottom
+            if ( 
+                $(window).scrollTop() > $(this).offset().top - ($(window).height() * 0.75) &&
+                $(window).scrollTop() < $(this).offset().top + $(this).height() - ($(window).height() * 0.25)
+            ) {
+                // Get percentage of progress
+                percent = $(value).data('percentage');
+                // Get radius of the svg's circle.complete
+                radius = $(this).find($('circle.complete')).attr('r');
+                // Get circumference (2πr)
+                circumference = 2 * Math.PI * radius;
+                // Get stroke-dashoffset value based on the percentage of the circumference
+                strokeDashOffset = circumference - ((percent * circumference) / 100);
+                // Transition progress for 1.25 seconds
+                $(this).find($('circle.complete')).animate({'stroke-dashoffset': strokeDashOffset}, 1250);
+            }
+        });
+    }).trigger('scroll');
+
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</svg>
+
+</section>
+</article>
+
+</body>
+
+</html>
